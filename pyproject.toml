@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "sec-edgar-tracker"
+version = "0.1.0"
+description = ""
+authors = ["DouglasKrouth <douglaskrouth@gmail.com>"]
+readme = "README.md"
+include = ["sec_edgar_tracker"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.31.0"
+beautifulsoup4 = "^4.12.2"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
